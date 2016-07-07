@@ -36,7 +36,6 @@ public class ProductRest {
 		result.add(new Product("A03", "Racquet2", 3500.00, 5));
 		result.add(new Product("A04", "Racquet3", 8500.00, 20));*/
 		
-		 
 		   try{
 		      //STEP 2: Register JDBC driver
 		      Class.forName("com.mysql.jdbc.Driver");
@@ -92,5 +91,6 @@ public class ProductRest {
 		
 		
 	}
+	
 	
 }
